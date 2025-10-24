@@ -25,8 +25,8 @@ const SoundCloudIcon = ({ className }: { className?: string }) => (
 
 // A-Side: Software Engineer Links
 const devSocialLinks = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/LDER-DEV/" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/ludjy-dev/" },
   { icon: XIcon, label: "X (Twitter)", href: "https://x.com/ludjyd" },
 ]
 
