@@ -106,7 +106,7 @@ export function ContactFooter() {
         >
           <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Contact Me</h2>
           <p className="text-muted-foreground mb-8 text-center text-pretty">
-            Drop the needle and reach out — I&apos;d love to hear from you
+            Feel free to reach out — I&apos;d love to hear from you
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -224,8 +224,7 @@ export function ContactFooter() {
                 transition={{ delay: 0.4 }}
                 className="text-center text-sm text-muted-foreground mt-8 pt-6 border-t border-gray-300/20"
               >
-                <p className="mb-2">Every project spins its own track</p>
-                <p>© {new Date().getFullYear()} Ludjy Derisier. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} Ludjy Derisier.LDER.DEV All rights reserved.</p>
               </motion.div>
             </motion.div>
           </div>
