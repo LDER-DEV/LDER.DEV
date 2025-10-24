@@ -2,11 +2,15 @@ import { VinylCrate } from "@/components/vinyl-crate"
 import { NowPlaying } from "@/components/now-playing"
 import { ContactFooter } from "@/components/contact-footer"
 import { SkillsSection } from "@/components/skills-section"
+import { SideToggle } from "@/components/side-toggle"
 
 export default function Home() {
   return (
     <main className="min-h-screen grain-overlay">
       <div className="container mx-auto px-4 py-8 md:py-12">
+        {/* A-side/B-side Toggle */}
+        <SideToggle />
+        
         <header className="text-center mb-12 md:mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">LDER.CODES</h1>
           <p className="text-lg md:text-xl text-muted-foreground text-balance">

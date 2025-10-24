@@ -8,17 +8,17 @@ export function SideToggle() {
   const { side, toggleSide } = usePortfolio()
 
   return (
-    <div className="fixed top-6 right-6 z-50">
+    <div className="flex justify-end mb-6">
       <motion.button
         onClick={toggleSide}
         className="relative bg-background/80 backdrop-blur-md border-2 border-border rounded-full p-1 shadow-2xl hover:shadow-xl transition-shadow"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
-        <div className="relative w-32 h-14 rounded-full overflow-hidden">
+        <div className="relative w-28 h-12 sm:w-32 sm:h-14 rounded-full overflow-hidden">
           {/* Background slider */}
           <motion.div
-            className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-full"
+            className="absolute inset-0 bg-gradient-to-r from-primary to-muted rounded-full"
             animate={{
               x: side === "a-side" ? 0 : "50%",
             }}
@@ -37,8 +37,8 @@ export function SideToggle() {
                 transition={{ duration: 0.2 }}
                 className="flex flex-col items-center"
               >
-                <Code className="h-4 w-4 mb-0.5" />
-                <span className="text-[10px] font-bold">A-SIDE</span>
+                <Code className="h-3 w-3 sm:h-4 sm:w-4 mb-0.5" />
+                <span className="text-[8px] sm:text-[10px] font-bold">A-SIDE</span>
               </motion.div>
             </div>
 
@@ -52,8 +52,8 @@ export function SideToggle() {
                 transition={{ duration: 0.2 }}
                 className="flex flex-col items-center"
               >
-                <Music className="h-4 w-4 mb-0.5" />
-                <span className="text-[10px] font-bold">B-SIDE</span>
+                <Music className="h-3 w-3 sm:h-4 sm:w-4 mb-0.5" />
+                <span className="text-[8px] sm:text-[10px] font-bold">B-SIDE</span>
               </motion.div>
             </div>
           </div>
