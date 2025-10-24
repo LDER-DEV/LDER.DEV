@@ -91,7 +91,7 @@ const projects: Project[] = [
       "This Chrome extension allows users to quickly convert YouTube videos to high-quality MP3 files. Simply paste a YouTube link, and the extension retrieves audio in 320 kbps MP3 format, offering an easy solution for music producers seeking sample material.",
     techStack: ["HTML", "CSS", "Node.js", "FFMPEG", "YT-DLP"],
     demoLink: "https://chromewebstore.google.com/detail/typebeat/igehpdfdahifdcdnpaiomdfhofddjhie",
-    coverImage: "/Typebeat.png",
+    coverImage: "/typebeat.png",
     coverColor: "oklch(0.20 0.04 240)",
   },
   {
